@@ -1,12 +1,11 @@
 let slider = document.getElementById("slider");
-let box = document.getElementById("model-viewer");
-let positionSlider = document.getElementById("position_slider");
+let fish = document.getElementById("model-viewer");
 
-function rotate() {
+function color() {
     console.log("slide");
     let value = slider.value;
     let positionValue = positionSlider.value;
-    box.style.filter = `hue-rotate(${value}deg)`;
+    fish.style.filter = `hue-rotate(${value}deg)`;
 }
 
-slider.addEventListener("input", rotate);
+slider.addEventListener("input", color);

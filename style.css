@@ -10,11 +10,6 @@ body {
   align-items: center;
 }
 
-.slider {
-  display: flex;
-  flex-direction: column;
-}
-
 .threedee {
   display: flex;
   width: 100%;

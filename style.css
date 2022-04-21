@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.slider {
+  display: flex;
+}
+
+.threedee {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

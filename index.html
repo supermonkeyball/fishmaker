@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hello World!</title>
     <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
@@ -31,8 +30,22 @@
           </div>
         </model-viewer>
       </div>
-      <input type="range" min="0" max="1" id="slider2" name="species" />
-      <input type="range" min="0" max="360" id="slider" name="color" />
+      <input
+        type="range"
+        min="0"
+        max="1"
+        id="slider2"
+        class="slides"
+        name="species"
+      />
+      <input
+        type="range"
+        min="0"
+        max="360"
+        id="slider"
+        class="slides"
+        name="color"
+      />
     </div>
     <script src="script.js"></script>
   </body>

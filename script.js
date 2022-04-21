@@ -1,5 +1,6 @@
 let slider = document.getElementById("slider");
 let fish = document.getElementById("model-viewer");
+let positionSlider = document.getElementById("position_slider");
 
 function color() {
     console.log("slide");

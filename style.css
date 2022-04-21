@@ -16,13 +16,6 @@ body {
   justify-content: center;
 }
 
-.slides {
-  -webkit-appearance: none;
-  outline: none;
-  border: none;
-  background-color: gray;
-}
-
 model-viewer {
   width: 800px;
   height: 800px;

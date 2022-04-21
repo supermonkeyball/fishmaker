@@ -10,8 +10,7 @@ function color() {
 
 slider.addEventListener("input", color);
 
-function warp() {
-  console.log("warp");
-  let value = slider2.value;
-  fish.style.width = `${value}px`;
+function species() {
+  console.log("species");
+
 }

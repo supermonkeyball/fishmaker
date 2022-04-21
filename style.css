@@ -18,3 +18,8 @@ body {
   width: 100%;
   justify-content: center;
 }
+
+model-viewer {
+  width: 800px;
+  height: 800px;
+}

@@ -6,24 +6,31 @@
     <title>Hello World!</title>
     <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
   </head>
   <body>
     <div class="container">
-      <div class="slider">
+      <div class="slider"></div>
+      <div class="threedee">
+        <model-viewer
+          bounds="tight"
+          enable-pan
+          src="https://cdn.glitch.global/d99d0544-47ec-4043-bd39-1e149e6c6393/aji.glb?v=1650566052865"
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+          camera-controls
+          environment-image="neutral"
+          poster="poster.webp"
+          shadow-intensity="0"
+        >
+          <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+          </div>
+        </model-viewer>
       </div>
-    <div class="threedee">
-    <model-viewer
-      alt="AJI"
-      src="https://cdn.glitch.global/d99d0544-47ec-4043-bd39-1e149e6c6393/aji.glb?v=1650566052865"
-      ar
-      ar-modes="webxr scene-viewer quick-look"
-      seamless-poster
-      shadow-intensity="1"
-      camera-controls
-      enable-pan
-    ></model-viewer>
     </div>
-  </div>
   </body>
 </html>

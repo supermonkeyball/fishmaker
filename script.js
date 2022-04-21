@@ -1,5 +1,5 @@
 let slider = document.getElementById("slider");
-let slider2 = 
+let slider2 = document.getElementById("slider2");
 let fish = document.getElementById("fish");
 
 function color() {
@@ -13,5 +13,5 @@ slider.addEventListener("input", color);
 function warp() {
   console.log("warp");
   let value = slider2.value;
-  fish.style.transform = `skewX(${value}deg)`;
+  fish.style.width = `${value}px`;
 }

@@ -12,9 +12,11 @@ slider.addEventListener("input", color);
 function species() {
   let value = slider2.value;
   
-  while (value = 1) {
-    document.getElementById("fish").src = "https://cdn.glitch.global/d99d0544-47ec-4043-bd39-1e149e6c6393/bass.glb?v=1650581382210";
-  }
+if (value == 1) {
+        document.getElementById("fish").src = "https://cdn.glitch.global/d99d0544-47ec-4043-bd39-1e149e6c6393/aji.glb?v=1650566052865";
+    } else {
+        document.getElementById("fish").src = "https://cdn.glitch.global/d99d0544-47ec-4043-bd39-1e149e6c6393/bass.glb?v=1650581382210";
+    }
 }
 
 slider2.addEventListener("input", species);
